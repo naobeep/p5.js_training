@@ -1,0 +1,12 @@
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000;
+  position: absolute;
+  z-index: 100;
+}

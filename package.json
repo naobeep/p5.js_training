@@ -1,0 +1,30 @@
+{
+  "name": "p5.js-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update-check": "ncu -u",
+    "001": "parcel 001/index.html --open",
+    "002": "parcel 002_typescript/src/index.html --open",
+    "003": "parcel 003/src/index.html --open",
+    "004": "parcel 004/src/index.html --open",
+    "005": "parcel 005/src/index.html --open",
+    "006": "parcel 006/src/index.html --open",
+    "build": "rimraf dist && parcel build src/index.html --public-url ./",
+    "clear": "rimraf dist"
+  },
+  "keywords": ["p5.js", "parcel", "TypeScript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/p5": "^1.3.1",
+    "npm-check-updates": "^12.0.2",
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "p5": "^1.4.0"
+  }
+}
