@@ -11,6 +11,7 @@
     "004": "parcel 004/src/index.html --open",
     "005": "parcel 005/src/index.html --open",
     "006": "parcel 006/src/index.html --open",
+    "007": "parcel 007/src/index.html --open",
     "build": "rimraf dist && parcel build src/index.html --public-url ./",
     "clear": "rimraf dist"
   },
